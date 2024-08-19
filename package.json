@@ -1,0 +1,27 @@
+{
+  "name": "mysql-export-records",
+  "description": "export records from MySQL server",
+  "version": "0.0.0",
+  "main": "dist/index.js",
+  "bin": {
+    "mysql-export-records": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w"
+  },
+  "author": "Yoshiharu Hirose",
+  "license": "BSD-2-Clause",
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "@types/argparse": "^2.0.16",
+    "@types/node": "^22.4.0",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "argparse": "^2.0.1",
+    "mysql2": "^3.11.0"
+  }
+}
